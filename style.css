@@ -1,0 +1,83 @@
+:root {
+    --bg: #0a0a12;
+    --gold: #ffcc33;
+    --text: #e2e8f0;
+    --glass: rgba(255, 255, 255, 0.05);
+    --sand: #c2b280;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: 'Inter', sans-serif; height: 100vh; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.brand-name {
+    font-family: 'Georgia', serif; font-style: italic; font-weight: 300;
+    font-size: 1.2rem; color: var(--gold); letter-spacing: 4px;
+    margin-bottom: 20px; text-transform: uppercase; opacity: 0.8;
+}
+
+#ember-canvas { position: fixed; top: 0; left: 0; z-index: 1; }
+
+.sanctuary-container {
+    position: relative; z-index: 10; width: 95%; max-width: 500px;
+    padding: 2rem; background: var(--glass); backdrop-filter: blur(15px);
+    border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.1); text-align: center;
+}
+
+/* Breathing */
+.breath-circle {
+    width: 130px; height: 130px; margin: 0 auto 1.5rem;
+    border: 2px solid var(--gold); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    animation: breathe-cycle 8s infinite ease-in-out;
+}
+
+#inner-breath-text { font-size: 0.8rem; color: var(--gold); animation: text-fade 8s infinite ease-in-out; }
+
+@keyframes breathe-cycle {
+    0%, 100% { transform: scale(1); opacity: 0.3; }
+    50% { transform: scale(2.2); opacity: 1; box-shadow: 0 0 30px var(--gold); }
+}
+
+@keyframes text-fade { 0%, 45%, 55%, 100% { opacity: 1; } 48%, 52% { opacity: 0; } }
+
+.hidden { display: none !important; }
+.fade-in { animation: fadeIn 1.2s forwards; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+textarea {
+    width: 100%; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; color: white; padding: 15px; margin-bottom: 15px; outline: none;
+}
+
+#journal-input { height: 200px; font-family: serif; border: 1px dashed var(--gold); }
+
+.primary-btn, .game-btn {
+    background: var(--gold); color: #111; border: none;
+    padding: 10px 22px; border-radius: 50px; font-weight: bold; cursor: pointer;
+}
+
+.game-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+
+/* Emoji Bubbles */
+#bubble-box { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+.bubble-emoji {
+    font-size: 2.5rem; cursor: pointer; transition: 0.3s;
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.2));
+}
+.bubble-emoji:hover { transform: scale(1.2); }
+
+#sand-cvs { background: var(--sand); border-radius: 15px; cursor: crosshair; touch-action: none; width: 100%; }
+
+#global-echo-container {
+    position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+    background: rgba(15, 23, 42, 0.9); padding: 8px 20px; border-radius: 50px;
+    display: flex; gap: 10px; font-size: 0.8rem; opacity: 0; transition: 1s; z-index: 100;
+}
+#global-echo-container.visible { opacity: 1; }
+
+.subtext-btn { background: transparent; border: none; color: #777; cursor: pointer; text-decoration: underline; margin-top: 10px; }
