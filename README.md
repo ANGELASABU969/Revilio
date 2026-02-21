@@ -2,15 +2,15 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# Relivio -  🎯
+# Relivio 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: DevLune
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Nidha M S - 
+- Member 2: Angela Sabu - [College]
 
 ### Hosted Project Link
 [mention your project hosted link here]
