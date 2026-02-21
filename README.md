@@ -9,20 +9,20 @@
 ### Team Name: DevLune
 
 ### Team Members
-- Member 1: Nidha M S - 
-- Member 2: Angela Sabu - [College]
+- Member 1: Nidha M S - Government Engineering College Idukki
+- Member 2: Angela Sabu - Government Engineering College Idukki
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://angelasabu969.github.io/Revilio/
 
 ### Project Description
-[2-3 lines about what your project does]
+Relivio is a minimalist digital sanctuary designed to turn heavy thoughts into light. It guides users through a ritual of guided breathing, visual release (turning regrets into stars), and mindful grounding through humorous tasks and sensory games. It’s a quiet corner of the internet built for letting go, laughing, and finding a moment of peace.
 
 ### The Problem statement
-[What problem are you solving?]
+Modern digital life leaves users overwhelmed by "digital baggage" and persistent thought loops, yet most wellness tools feel like clinical chores. Relivio solves this by providing a ritualistic sanctuary that uses sensory grounding and visual metaphors to transform heavy regrets into a calming, interactive experience of release.
 
 ### The Solution
-[How are you solving it?]
+Relivio solves digital overwhelm by replacing clinical routines with a three-step "Ritual of Release." It uses guided breathing to regulate the nervous system, an "ember engine" that visually transforms typed regrets into a permanent constellation of light, and mindful games that use a user's own emotional triggers (via emoji-popping) to provide a sense of tangible, sensory relief.
 
 ---
 
@@ -31,10 +31,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML5, CSS3, JavaScript (ES6+).
+- Frameworks used: None
+- Libraries used: Canvas API (for the Ember/Star engine), Web Storage API (for the Journaling persistence), and the Browser Speech/Touch API (for mobile-friendly Zen games).
+- Tools used: VS Code (Editor), Live Server (Local testing), Git (Version control), and Browser DevTools (Performance profiling and CSS debugging).
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +46,11 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Guided Breathing Gatekeeper
+- Feature 2: Alchemic Ember Engine
+- Feature 3: Grounding Task System
+- Feature 4: Context-Aware Zen Zone
+- Feature 5: Localized Journaling Sanctuary
 
 ---
 
@@ -59,7 +60,7 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+git clone https://github.com/ANGELASABU969/Revilio.git
 ```
 
 #### Run
