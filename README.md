@@ -84,14 +84,20 @@ git clone https://github.com/ANGELASABU969/Revilio.git
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+image1
+The image showcases the Breathing Gatekeeper, the initial phase of the Relivio sanctuary. It features a glowing, pulsing gold ring that synchronizes with the text "Breath In" to guide users through a meditative breathing cycle. This minimalist interface serves to physically regulate and center the user before they begin the process of releasing their digital regrets.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+image2
+This stage, titled "Release to the Stars," is where the core emotional work happens. Users are provided with a private text area to "write their weight"—be it a regret, anxiety, or heavy thought. Upon clicking "Ignite and Release," the platform utilizes its "Ember Engine" to visually transform that text into glowing stars, providing a symbolic sense of lightness and letting go.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+image3
+After the emotional release, the platform uses light humor to pull the user back into the physical world. Users are encouraged to "prove they are a functioning human" by completing simple tasks like relaxing their shoulders or drinking water before entering the "Zen Zone".
+
+image4
+The final stage provides an interactive "Pop Your Emotions" sensory game. Users tap various themed emojis—such as broken hearts or wilted flowers—to "let go," with each pop generating a small burst of light.
+
+image5
+The "Journaling Sanctuary" offers a private, long-form writing space for deeper reflection. Users can document their feelings and click "Save Journal" to keep a record of their emotional growth during the session.
 
 #### Diagrams
 
@@ -106,6 +112,7 @@ git clone https://github.com/ANGELASABU969/Revilio.git
 *Add caption explaining your workflow*
 
 ---
+
 
 ### For Hardware:
 
